@@ -1,4 +1,4 @@
-package net.leolink.android.simpleinfinitecarousel;
+package net.infratek.CarouselView;
 
 import android.content.Context;
 import android.graphics.Canvas;

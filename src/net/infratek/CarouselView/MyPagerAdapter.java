@@ -1,8 +1,9 @@
-package net.leolink.android.simpleinfinitecarousel;
+package net.infratek.CarouselView;
 
 
 import com.nineoldandroids.animation.ObjectAnimator;
 import com.nineoldandroids.view.ViewHelper;
+import net.infratek.CarouselView.R;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

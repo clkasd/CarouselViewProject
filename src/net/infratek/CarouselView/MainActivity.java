@@ -1,8 +1,9 @@
-package net.leolink.android.simpleinfinitecarousel;
+package net.infratek.CarouselView;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import net.infratek.CarouselView.R;
 
 public class MainActivity extends FragmentActivity {
 	public final static int PAGES = 10;
