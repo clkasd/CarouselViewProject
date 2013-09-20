@@ -101,6 +101,8 @@ ViewPager.OnPageChangeListener {
 			ViewHelper.setAlpha(cur, maxAlpha-0.5f*positionOffset);
 			ViewHelper.setAlpha(next, minAlpha+0.5f*positionOffset);
 			ViewHelper.setAlpha(prev, minAlpha+0.5f*positionOffset);
+			
+			
 			if(nextnext!=null)
 			{	
 				ViewHelper.setAlpha(nextnext, minAlpha);
@@ -125,6 +127,10 @@ ViewPager.OnPageChangeListener {
 				ViewHelper.setRotationY(prev, minDegree);
 			}
 
+			
+			/*To animate it properly we must understand swipe direction
+			 * this code adjusts the rotation according to direction.
+			 */
 			if(swipedLeft)
 			{
 				if(next!=null)
@@ -151,7 +157,9 @@ ViewPager.OnPageChangeListener {
 	@Override
 	public void onPageSelected(int position) {
 
-
+/*
+ * to get finger swipe direction
+ */
 		if(lastPage<=position)
 		{
 			swipedLeft=true;
