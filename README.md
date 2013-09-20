@@ -1,4 +1,4 @@
-SimpleInfiniteCarousel
+Sample Carouse View
 ======================
 
-A sample to show how to make a simple infinite carousel with ViewPager on Android
+A sample project inspired from others.CarouselView with view pager android
