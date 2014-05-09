@@ -3,7 +3,7 @@ package net.infratek.CarouselView;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
-import net.infratek.CarouselView.R;
+import com.arduandro.CarouselView.R;
 
 public class MainActivity extends FragmentActivity {
 	public final static int PAGES = 10;
@@ -40,6 +40,8 @@ public class MainActivity extends FragmentActivity {
 		
 		// Set margin for pages as a negative number, so a part of next and 
 		// previous pages will be showed
-		pager.setPageMargin(-180);
+		
+		//
+		pager.setPageMargin(Integer.parseInt(getString(R.string.pagermargin)));
 	}
 }
